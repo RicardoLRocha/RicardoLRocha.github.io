@@ -1,7 +1,7 @@
 name: Dependabot
 on:
   schedule:
-    - cron: '0 16 * * 1' # Ejecutar cada lunes a las 9 a.m. hora del Pacífico
+    - cron: '0 16 * * 1' # Run every Monday at 9 a.m. pacific time
 jobs:
   build:
     runs-on: ubuntu-latest
